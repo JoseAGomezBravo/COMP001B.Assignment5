@@ -1,0 +1,74 @@
+/*
+	Reset Selector - don't remove this!
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* 
+	You can modify everything after this point.
+*/
+
+a:link, a:visited {
+	color: blue;
+}
+
+a:focus, a:hover {
+	background-color: #ddddff;
+	border-radius: 5px;
+	text-decoration: underline;
+	transition-duration: 0.2s;
+	transition-property: background;
+}
+
+body {
+line-height: 145%;
+font-size: 17px;
+font-family: Roboto, sans-serif;
+font-weight: 400;
+}
+
+code {
+	color: blue;
+}
+
+h1, h2, h3 {
+margin-left: 0.5em;
+}
+
+h1 {
+	font-weight: bolder;
+}
+
+h2 {
+	margin-top: 1em;
+	font-weight: 600;
+}
+
+h3 {
+	margin-top: 0.5em;
+	margin-left: 1em;
+}
+
+header {
+	margin: 10px 10px 15px 5px;
+}
+
+main {
+margin: 5px;
+}
+
+p {
+margin-left: 1em;
+}
+
+#intro {
+font-weight: 300;
+width: 70%;
+}
+
+#how-does-it-work, #influence, #joke {
+	width: 70%;
+}
